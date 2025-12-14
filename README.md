@@ -1,6 +1,7 @@
 Project description
 
 I. Closed Queuing network simulation (17 pt)
+
 Build a simulator to capture the following system and answer the questions below. A total of N=40 jobs circulate in different parts of the systems: CPU, disk, and resting area. There is one CPU and two disks, one slow and one fast. Each job starts at the CPU station and takes an average of 2 seconds. After CPU, a job fetches the data from the disk, needing an average of 3000 disk cycles. There are two possible choices of disks, fast and slow, which have a speed of 1000 cycles per second and 100 cycles per seconds, respectively. After the disk station, the job can rest for 15 seconds on average. The figure below gives an overview of the system:
 
 The choices of distributions are up to you. You are welcomed to try different distributions to answer the following questions and assess the impact of different variants.
